@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: "pangolin", sans-serif;
+  line-height: 1.6rem; }
+
+.moves {
+  display: flex;
+  justify-content: center; }
+  .moves__img {
+    margin: 3rem 5rem;
+    cursor: pointer; }
+    .moves__img:hover {
+      opacity: 0.8; }
+
+.score {
+  display: flex;
+  justify-content: center;
+  margin: 1rem; }
+  .score__para {
+    width: 100%;
+    font-size: 3rem;
+    padding: 2rem;
+    background-color: darkseagreen;
+    margin: 2rem;
+    border: none;
+    border-radius: 0.5rem; }
+
+.restart-btn {
+  display: none;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: none;
+  color: black; }
+  .restart-btn:hover {
+    color: #fff;
+    background-color: #000; }
+
+.modal-box {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-image: linear-gradient(to right, #ea907a, #4f8a8b); }
+  .modal-box__content {
+    background: #fff;
+    text-align: center;
+    margin: 10% auto;
+    width: 350px;
+    border-radius: 10px;
+    padding: 3rem; }
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 3rem 3rem;
+  text-align: center;
+  background-image: linear-gradient(to right, #dd73d6, #d49dc5); }
+
+h1,
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem; }
+
+h1 {
+  color: fuchsia;
+  text-transform: uppercase;
+  font-size: 3rem; }
+
+h2 {
+  padding-top: 2rem;
+  font-size: 2rem; }
+
+.text-win {
+  color: #b1bbb3;
+  font-size: 3rem;
+  margin-top: 1.5rem;
+  letter-spacing: 0.2rem; }
+
+.p1 {
+  color: #000;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  text-transform: capitalize;
+  letter-spacing: 0.2rem; }

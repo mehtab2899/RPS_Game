@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS-Game</title>
+    <link rel="shortcut icon" href="favicon.ico" type="images/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+        integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>rock paper scissor</h1>
+        <h2>make your move</h2>
+
+
+        <div class="moves">
+            <img src="images/rock.svg" id="rock" alt="rock" class="moves__img move">
+            <img src="images/paper.svg" id="paper" alt="paper" class="moves__img move">
+            <img src="images/scissors.svg" id="scissor" alt="scissor" class="moves__img move">
+        </div>
+
+        <h2>Scoreboard</h2>
+        <div class="score" id="score">
+            <p class="score__para">You: 0</p>
+            <p class="score__para">Computer: 0</p>
+        </div>
+
+        <button id="restart" class="restart-btn">Restart Game</button>
+
+        <div class="modal">
+            <div id="result" class="modal-content"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
