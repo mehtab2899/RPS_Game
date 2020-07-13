@@ -12,19 +12,38 @@
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .moves__img {
+    margin: 3rem 1rem;
+    height: 13rem;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .moves__img {
+    height: 10rem;
+  }
+}
+
 .score {
   display: flex;
   justify-content: center;
   margin: 1rem;
 
   &__para {
-    width: 100%;
     font-size: 3rem;
     padding: 2rem;
     background-color: darkseagreen;
     margin: 2rem;
     border: none;
     border-radius: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .score__para {
+    font-size: 1.5rem;
+    padding: 1rem;
   }
 }
 
@@ -41,26 +60,5 @@
   &:hover {
     color: #fff;
     background-color: #000;
-  }
-}
-
-.modal-box {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-image: linear-gradient(to right, #ea907a, #4f8a8b);
-
-  &__content {
-    background: #fff;
-    text-align: center;
-    margin: 10% auto;
-    width: 350px;
-    border-radius: 10px;
-    padding: 3rem;
   }
 }
