@@ -17,7 +17,8 @@ body {
   justify-content: center; }
   .moves__img {
     margin: 3rem 5rem;
-    cursor: pointer; }
+    cursor: pointer;
+    width: 10rem; }
     .moves__img:hover {
       opacity: 0.7; }
 

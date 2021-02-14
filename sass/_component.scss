@@ -1,64 +1,66 @@
 .moves {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 
-  &__img {
-    margin: 3rem 5rem;
-    cursor: pointer;
+	&__img {
+		margin: 3rem 5rem;
+		cursor: pointer;
+		width: 10rem;
+		// height: 5rem;
 
-    &:hover {
-      opacity: 0.7;
-    }
-  }
+		&:hover {
+			opacity: 0.7;
+		}
+	}
 }
 
 @media only screen and (max-width: 767px) {
-  .moves__img {
-    margin: 3rem 1rem;
-    height: 13rem;
-  }
+	.moves__img {
+		margin: 3rem 1rem;
+		height: 13rem;
+	}
 }
 
 @media only screen and (max-width: 374px) {
-  .moves__img {
-    height: 10rem;
-  }
+	.moves__img {
+		height: 10rem;
+	}
 }
 
 .score {
-  display: flex;
-  justify-content: center;
-  margin: 1rem;
+	display: flex;
+	justify-content: center;
+	margin: 1rem;
 
-  &__para {
-    font-size: 3rem;
-    padding: 2rem;
-    background-color: darkseagreen;
-    margin: 2rem;
-    border: none;
-    border-radius: 0.5rem;
-  }
+	&__para {
+		font-size: 3rem;
+		padding: 2rem;
+		background-color: darkseagreen;
+		margin: 2rem;
+		border: none;
+		border-radius: 0.5rem;
+	}
 }
 
 @media only screen and (max-width: 475px) {
-  .score__para {
-    font-size: 1.5rem;
-    padding: 1rem;
-  }
+	.score__para {
+		font-size: 1.5rem;
+		padding: 1rem;
+	}
 }
 
 .restart-btn {
-  display: none;
-  padding: 0.5rem;
-  font-size: 2rem;
-  border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  outline: none;
-  color: black;
+	display: none;
+	padding: 0.5rem;
+	font-size: 2rem;
+	border: none;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	outline: none;
+	color: black;
 
-  &:hover {
-    color: #fff;
-    background-color: #000;
-  }
+	&:hover {
+		color: #fff;
+		background-color: #000;
+	}
 }
